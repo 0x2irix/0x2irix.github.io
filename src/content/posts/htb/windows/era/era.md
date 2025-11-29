@@ -3,9 +3,9 @@ title: HTB ERA Challenge
 published: 2025-11-29
 description: ''
 image: 'era.png'
-size: "100x100"
-tags: [HTB, AD, Web]
-category: 'Active Directory'
+size: "50x50"
+tags: [HTB, AD, Web, PrivEsc]
+category: 'HTB'
 draft: false 
 lang: ''
 ---
