@@ -45,7 +45,8 @@ const { remarkPluginFrontmatter } = await entry.render();
 <div class:list={["card-base flex flex-col-reverse md:flex-col w-full rounded-[var(--radius-large)] overflow-hidden relative", className]} style={style}>
   <!-- النص -->
   <div class="pl-6 md:pl-9 pr-6 md:pr-2 pt-6 md:pt-7 pb-6 md:pb-8 flex flex-col flex-1 md:w-[calc(100%_-_var(--coverWidth)_-_20px)]">
-    <a href={url} class="group block font-bold text-3xl mb-4 text-[var(--primary)]">      {title}
+    <a href={url} class="block font-bold text-3xl mb-4 text-[var(--primary)]">
+      {title}
       <Icon class="inline text-2xl text-[var(--primary)] md:hidden ml-2" name="material-symbols:chevron-right-rounded" />
       <Icon class="hidden md:inline text-2xl text-[var(--primary)] opacity-0 group-hover:opacity-100 transition absolute -right-8" name="material-symbols:chevron-right-rounded" />
     </a>
@@ -53,7 +54,7 @@ const { remarkPluginFrontmatter } = await entry.render();
     <!-- المحتوى كله جوا flex عشان الـ word count يفضل تحت -->
     <div class="flex flex-col flex-1">
       <div class="space-y-5">
-        <PostMetadata published={published} updated={updated} tags={tags} category={category} hideTagsForMobile={false} hideUpdateDate={true} />
+        <PostMetadata published={published} updated={updated} tags={tags} category={category} hideTagsForMobile={false} hideUpdateDate={true} class="mb-4" />
         
         <p class="text-75 line-clamp-3 md:line-clamp-2 pr-4">
           {description || remarkPluginFrontmatter.excerpt}
@@ -85,6 +86,7 @@ const { remarkPluginFrontmatter } = await entry.render();
       <ImageWrapper
         src={image}
         basePath={path.join("content/posts/", getDir(entry.id))}
+        alt={title}
         class="w-full h-48 md:h-full object-cover md:object-contain bg-black/50"
       />
     </a>
