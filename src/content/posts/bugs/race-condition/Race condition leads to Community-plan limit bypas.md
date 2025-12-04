@@ -1,12 +1,11 @@
 ---
 title: Race condition leads to Community-plan limit bypass
 published: 2025-12-04
-description: ''
-image: 'race.jpg'
-tags: [bugs, web, business logics]
-category: 'bugs'
-draft: false 
-lang: ''
+description: ""
+image: "race.jpg"
+tags: ["bugs", "Web", "business logic"]
+category: Bugs
+draft: false
 ---
 
 
@@ -48,7 +47,7 @@ First: HackerOne Triager accept the report and change status to **triage and pen
 
 But internal team closed my report to info which say the business logic is out of the scope and my report is duplicated to my report (same report id but is lay)
 
-![Screenshot 2025-12-04 012441.png](Screenshot_2025-12-04_012441.png)
+![Screenshot 2025-12-04 013015.png](Screenshot_2025-12-04_013015.png)
 
 Scope of App
 
