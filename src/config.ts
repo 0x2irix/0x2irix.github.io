@@ -33,7 +33,7 @@ export const siteConfig: SiteConfig = {
 		// Leave this array empty to use the default favicon
 		{
 		  src: '/assets/images/irix.ico',    // Path of the favicon, relative to the /public directory
-		  theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+		  //theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
 		  sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
 		}
 	],
@@ -59,7 +59,7 @@ export const profileConfig: ProfileConfig = {
 	links: [
     {
       name: "LinkedIn",
-      icon: "fa6-brands:linkedin-in",      // أو "fa6-brands:linkedin" (الاتنين شغالين)
+      icon: "fa6-brands:linkedin-in",      
       url: "https://www.linkedin.com/in/irix",
     },
 		{
@@ -81,7 +81,7 @@ export const profileConfig: ProfileConfig = {
 		},
     {
       name: "HTB",
-      icon: "fa6-brands:font-awesome",    // مفيش أيقونة رسمية، ده أقرب شكل
+      icon: "fa6-brands:font-awesome",    
       url: "https://app.hackthebox.com/profile/2159197",
     },
 	],
