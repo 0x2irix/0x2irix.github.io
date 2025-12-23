@@ -1,5 +1,5 @@
 ---
-title: HTB ERA Challenge
+title: HTB ERA
 published: 2025-11-29
 description: ''
 image: 'era.png'
