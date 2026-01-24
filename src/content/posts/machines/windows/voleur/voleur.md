@@ -5,7 +5,7 @@ description: ''
 image: 'voleur.png'
 size: "50x50"
 tags: [HTB, AD, Web, PrivEsc]
-category: 'HTB'
+category: 'Machines'
 draft: false 
 lang: ''
 ---
