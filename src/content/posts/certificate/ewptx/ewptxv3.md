@@ -2,7 +2,7 @@
 title: eWPTXv3 Review
 published: 2026-02-22
 description: ""
-image: "kurama.jpg"
+image: "image.png"
 tags: ["Web", "bugs", "recon"]
 category: Guides
 draft: false
@@ -39,4 +39,3 @@ Remember this is a penetration‑testing simulation — stay focused on that
 - Use automated tools and scripts whenever they help you be more efficient.
 - Exam depend on CVE
 
-![image.png](image.png)
